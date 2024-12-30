@@ -1,0 +1,16 @@
+SELECT
+    b.*,
+    s.tempo,
+    s.key,
+    s.danceability,
+        s.energy,
+        s.loudness,
+        s.speechiness,
+        s.acousticness,
+        s.instrumentalness,
+        s.liveness,
+        s.valence
+FROM billboard AS b
+LEFT JOIN audio_features AS s
+    ON b.song = s.song
+    AND b.performer = s.performer;
