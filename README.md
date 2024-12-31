@@ -25,10 +25,10 @@ This is a collection of data analytic projects I have completed. Some tools used
             s.instrumentalness,
             s.liveness,
             s.valence
-    FROM billboard AS b
-    LEFT JOIN audio_features AS s
-        ON b.song = s.song
-        AND b.performer = s.performer;
+       FROM billboard AS b
+       LEFT JOIN audio_features AS s
+           ON b.song = s.song
+           AND b.performer = s.performer;
    ```
 4. Once the SQL code has been executed and the table has been created, export the table from SQLite and import the CSV file to Tableau.
 5. From here, create any analysis and visuals for dashboard!
