@@ -2,14 +2,14 @@
 This is a collection of data analytic projects I have completed. Some tools used include SQL, Excel, Python, and Tableau.
 
 ## Projects
-- [Billboard Top 100 Analysis of Audio Features](# Billboard Top 100 Analysis of Audio Features)
-   - [Process](#Process For Billboard)
-   - [Dashboard](#Billboard Top 100 Analysis of Audio Features Dashboard)
+- [Billboard Top 100 Analysis of Audio Features](#billboard-top-100-analysis-of-audio-features)
+   - [Process](#process-for-billboard-analysis)
+   - [Dashboard](#billboard-top-100-analysis-of-audio-features-dashboard)
 
 
 ### Billboard Top 100 Analysis of Audio Features
 
-#### Process For Billboard
+#### Process For Billboard Analysis
 1. Download the files Billboard (includes Billboard Top 100 since 1958) and the Spotify audio features from [Kaggle](https://www.kaggle.com/datasets/sujaykapadnis/top-100-billboard).
 2. Download SQLite to join both sheets using the identifiers: song and performers. Include features such as key, tempo, and danceability with data such as the date, and week position that were on Billboard.
 3. Once both CSV files have been imported to SQLite, Use the following code to join and create a new table called `billboard_audio_features`
