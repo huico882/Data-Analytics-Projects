@@ -32,3 +32,9 @@ This is a collection of data analytic projects I have completed. Some tools used
    ```
 4. Once the SQL code has been executed and the table has been created, export the table from SQLite and import the CSV file to Tableau.
 5. From here, create any analysis and visuals for dashboard!
+
+#### [Dashboard](https://public.tableau.com/views/BillboardTop100AudioFeatures/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+   ![Dashboard 2](https://github.com/user-attachments/assets/7d9c39ea-ef48-4a4b-9ec7-a81909ed1f31)
+
+
