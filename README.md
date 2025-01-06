@@ -2,9 +2,42 @@
 This is a collection of data analytic projects I have completed. Some tools used include SQL, Excel, Python, and Tableau.
 
 ## Projects
+- [Olist E-Commerce Sales & Marketing Analysis]
+   - [Process]
+   - [Sales Analysis]
+     - [Dashboard]
+     - [Key Insights]
+   - [Marketing Analysis]
+     - [Dashboard]
+     - [Key Insights]
 - [Billboard Top 100 Analysis of Audio Features](#billboard-top-100-analysis-of-audio-features)
    - [Process](#process-for-billboard-analysis)
    - [Dashboard](#billboard-top-100-analysis-of-audio-features-dashboard)
+
+
+### Olist E-Commerce Sales & Marketing Analysis
+
+#### Process For Olist E-Commerce Analysis
+1. Download Olist E-Commerce Dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data?select=olist_sellers_dataset.csv)
+2. Assessed the database, and looked at the relationship between the datasets. I noticed that there was a list of product categories but that they were in Portuguese. Since the database also included a translation of the product categories, I decided to create a new dataset in English
+      ![Olist_database](https://github.com/user-attachments/assets/a171250e-eede-41c8-a47b-de32cc616147)
+3. Import the `olist_products_dataset` and `product_category_name_translation` datasets into SQLite. Then run the following code to create a new table,
+```
+      CREATE TABLE olist_products_dataset_translated AS
+      SELECT 
+      	s.product_id,
+      	t.product_category_name_english,
+      	s.product_name_lenght,
+      	s.product_description_lenght,
+      	s.product_photos_qty
+      FROM olist_products_dataset as s
+      LEFT JOIN product_category_name_translation as t
+      ON s.product_category_name = t.product_category_name
+      WHERE s.product_category_name IS NOT NULL;
+```
+4. while playing with the SQL code, I noticed that some product categories in `olist_products_dataset` were null values. To deal with this, I included the code `WHERE s.product_category_name IS NOT NULL` which will only include products that have a product category
+5. After joining the tables together, I exported the data and inserted all relevant information into Tableau. From here, I did any sort of analysis and visuals that were needed
+
 
 
 ### Billboard Top 100 Analysis of Audio Features
