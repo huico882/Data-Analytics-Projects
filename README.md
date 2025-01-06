@@ -45,7 +45,7 @@ This is a collection of data analytic projects I have completed. Some tools used
 5. After joining the tables together, I exported the data and inserted all relevant information into Tableau. From here, I did any sort of analysis and visuals that were needed
 
 #### Olist E-Commerce Sales Analysis
-##### Sales Analysis Dashboard
+##### [Sales Analysis Dashboard](https://public.tableau.com/views/OlistE-Commerce_17356217424300/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
    ![Dashboard 1 (3)](https://github.com/user-attachments/assets/b318722b-2ee4-45ce-af63-bfec4109e8e7)
 
 
