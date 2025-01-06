@@ -3,6 +3,7 @@ This is a collection of data analytic projects I have completed. Some tools used
 
 ## Projects
 - [Olist E-Commerce Sales & Marketing Analysis]
+   - [Background]
    - [Process]
    - [Sales Analysis]
      - [Dashboard]
@@ -16,6 +17,10 @@ This is a collection of data analytic projects I have completed. Some tools used
 
 
 ### Olist E-Commerce Sales & Marketing Analysis
+
+#### Olist E-Commerce Background
+      - Olist is an E-commerce store located in Brazil.
+      
 
 #### Process For Olist E-Commerce Analysis
 1. Download Olist E-Commerce Dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data?select=olist_sellers_dataset.csv)
@@ -37,6 +42,16 @@ This is a collection of data analytic projects I have completed. Some tools used
 ```
 4. while playing with the SQL code, I noticed that some product categories in `olist_products_dataset` were null values. To deal with this, I included the code `WHERE s.product_category_name IS NOT NULL` which will only include products that have a product category
 5. After joining the tables together, I exported the data and inserted all relevant information into Tableau. From here, I did any sort of analysis and visuals that were needed
+
+#### Olist E-Commerce Sales Analysis
+
+#### Olist E-Commerce Marketing Analysis
+
+#### Olist E-Commerce Key Takeaways
+
+
+
+
 
 
 
