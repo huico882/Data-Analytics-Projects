@@ -19,7 +19,9 @@ This is a collection of data analytic projects I have completed. Some tools used
 ### Olist E-Commerce Sales & Marketing Analysis
 
 #### Olist E-Commerce Background
-      - Olist is an E-commerce store located in Brazil.
+   - Olist is an E-commerce store located in Brazil.
+   - The data analyzed ranges from August 2016 to August 2018. There was a little bit more data available but the information was not updated so, to make the analysis consistent, I stopped using data after August 2018
+   - Olist is an online marketplace where small businesses in Brazil are easily able to sell their products. For more information, visit the [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data?select=olist_sellers_dataset.csv) where the data was pulled from.
       
 
 #### Process For Olist E-Commerce Analysis
@@ -44,11 +46,29 @@ This is a collection of data analytic projects I have completed. Some tools used
 5. After joining the tables together, I exported the data and inserted all relevant information into Tableau. From here, I did any sort of analysis and visuals that were needed
 
 #### Olist E-Commerce Sales Analysis
+##### Sales Analysis Dashboard
+      ![Dashboard 1 (3)](https://github.com/user-attachments/assets/6eebadfb-ea7d-4e96-ad81-cd3a961af67d)
+
+##### Sales Analysis Key Insights
+   - The highest-selling month was November 2017, this aligns with Black Friday, which is when stores have a lot of discounts and consumers are willing to spend money.
+   - The most revenue generated categories include (starting from most) Health Beauty, Watches Gifts, Bed Bath Table, Computer Accessories, and Sports Leisure.
+   - The least revenue generated categories include (starting from least) Security & Services, Fashion Childrens Clothes, "CDs, DVDs, & Musicals", Home Comfort 2, and Flowers
+   - The most sold categories by quantity include (starting from most) Bed Bath Table, Furniture Decor, Health Beauty, Sports Leisure, and Computer Accessories.
+   - The least sold categories by quantity include (starting from least) Security & Services, Fashion Childrens Clothes, "CDs, DVDs & Musicals", Cousine, Arts & Craftsmanship.
+   - The most revenue generated State and City was Sao Paulo by far. This state generated 3x more than the second state, Rio de Janeiro.
+
+
 
 #### Olist E-Commerce Marketing Analysis
+##### Marketing Analysis Dashboard
+##### Marketing Analysis Key Insights
 
 #### Olist E-Commerce Key Takeaways
-
+   - The E-Commerce store should focus on their Health Beauty & Fitness sections. These categories generated some of the best revenues while having a lower # of items sold.
+   - Watches is also among this group, it generated the second most revenue while having sold half as much as the most sold item by quantiy, Bed Bath Table.
+   - Focusing in Health, Beauty, Fitness, & Fashion (specifically accessories, such as watches) are key to generating more revenue.
+   - Although some Fashion categories such as Childrens Clothes and Sports are in the lower spectrum in terms of quantity sold and revenue generated, if focusing on the categories mentioned in the point above, it would be beneficial to revamp these categories. There is a lot of potential revenue if Olist improves and markets Fashion in Childrens Clothes and Sports.
+   - Marketing should be increased in Rio de Janeiro. It already has the second most revenue, and focusing on promoting E-Commerce more in the State, has the potential to significantly increase revenue.
 
 
 
