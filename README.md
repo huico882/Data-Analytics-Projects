@@ -2,21 +2,20 @@
 This is a collection of data analytic projects I have completed. Some tools used include SQL, Excel, Python, and Tableau.
 
 ## Projects
-- [Olist E-Commerce Sales & Marketing Analysis]
-   - [Background]
-   - [Process]
-   - [Sales Analysis]
-     - [Dashboard]
-     - [Key Insights]
-   - [Marketing Analysis]
-     - [Dashboard]
-     - [Key Insights]
+- [Olist E-Commerce Sales Analysis](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-sales--marketing-analysis)
+   - [Background](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-background)
+   - [Process](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#process-for-olist-e-commerce-analysis)
+   - [Sales Analysis](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-sales-analysis)
+     - [Dashboard](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#sales-analysis-dashboard)
+     - [Key Insights](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#sales-analysis-key-insights)
+   - [Key Takeaways](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-key-takeaways)
+
 - [Billboard Top 100 Analysis of Audio Features](#billboard-top-100-analysis-of-audio-features)
    - [Process](#process-for-billboard-analysis)
    - [Dashboard](#billboard-top-100-analysis-of-audio-features-dashboard)
 
-
-### Olist E-Commerce Sales & Marketing Analysis
+##
+### Olist E-Commerce Sales Analysis
 
 #### Olist E-Commerce Background
    - Olist is an E-commerce store located in Brazil.
@@ -47,7 +46,8 @@ This is a collection of data analytic projects I have completed. Some tools used
 
 #### Olist E-Commerce Sales Analysis
 ##### Sales Analysis Dashboard
-      ![Dashboard 1 (3)](https://github.com/user-attachments/assets/6eebadfb-ea7d-4e96-ad81-cd3a961af67d)
+   ![Dashboard 1 (3)](https://github.com/user-attachments/assets/b318722b-2ee4-45ce-af63-bfec4109e8e7)
+
 
 ##### Sales Analysis Key Insights
    - The highest-selling month was November 2017, this aligns with Black Friday, which is when stores have a lot of discounts and consumers are willing to spend money.
@@ -57,16 +57,10 @@ This is a collection of data analytic projects I have completed. Some tools used
    - The least sold categories by quantity include (starting from least) Security & Services, Fashion Childrens Clothes, "CDs, DVDs & Musicals", Cousine, Arts & Craftsmanship.
    - The most revenue generated State and City was Sao Paulo by far. This state generated 3x more than the second state, Rio de Janeiro.
 
-
-
-#### Olist E-Commerce Marketing Analysis
-##### Marketing Analysis Dashboard
-##### Marketing Analysis Key Insights
-
 #### Olist E-Commerce Key Takeaways
    - The E-Commerce store should focus on their Health Beauty & Fitness sections. These categories generated some of the best revenues while having a lower # of items sold.
-   - Watches is also among this group, it generated the second most revenue while having sold half as much as the most sold item by quantiy, Bed Bath Table.
-   - Focusing in Health, Beauty, Fitness, & Fashion (specifically accessories, such as watches) are key to generating more revenue.
+   - Watches is also among this group, it generated the second most revenue while having sold half as much as the most sold item by quantity, Bed Bath Table.
+   - Focusing on Health, Beauty, Fitness, & Fashion (specifically accessories, such as watches) are key to generating more revenue.
    - Although some Fashion categories such as Childrens Clothes and Sports are in the lower spectrum in terms of quantity sold and revenue generated, if focusing on the categories mentioned in the point above, it would be beneficial to revamp these categories. There is a lot of potential revenue if Olist improves and markets Fashion in Childrens Clothes and Sports.
    - Marketing should be increased in Rio de Janeiro. It already has the second most revenue, and focusing on promoting E-Commerce more in the State, has the potential to significantly increase revenue.
 
@@ -74,7 +68,7 @@ This is a collection of data analytic projects I have completed. Some tools used
 
 
 
-
+##
 ### Billboard Top 100 Analysis of Audio Features
 
 #### Process For Billboard Analysis
