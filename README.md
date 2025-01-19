@@ -2,6 +2,10 @@
 This is a collection of data analytic projects I have completed. Some tools used include SQL, Excel, Python, and Tableau.
 
 ## Projects
+- [Amazon Product Description Generator (APDG)]
+   - [Background]
+   - [Process]
+   - [Workflow]
 - [Olist E-Commerce Sales Analysis](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-sales--marketing-analysis)
    - [Background](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-background)
    - [Process](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#process-for-olist-e-commerce-analysis)
@@ -13,6 +17,65 @@ This is a collection of data analytic projects I have completed. Some tools used
 - [Billboard Top 100 Analysis of Audio Features](#billboard-top-100-analysis-of-audio-features)
    - [Process](#process-for-billboard-analysis)
    - [Dashboard](#billboard-top-100-analysis-of-audio-features-dashboard)
+
+
+##
+### Amazon Product Description Generator
+
+#### (APDG) Background
+The Amazon Product Description Generator is a Python-based tool designed to scrape product data from Amazon, analyze key metrics (like price, title length, and word count), and generate optimized Amazon product descriptions, titles, prices, and SEO keywords using AI. This project leverages libraries such as BeautifulSoup for web scraping, pandas for data analysis, and the ollama package for AI integration.
+
+#### (APDG) Process
+## Process
+1. **Web Scraping**: Implemented a tool that pulls product information from Amazon using `requests` to fetch the webpage and `BeautifulSoup` to parse the HTML content.
+   - Headers were configured to simulate a browser request and avoid detection.
+   - Functions were developed to pull website content, parse HTML, extract product information, and convert it into usable formats.
+
+2. **Data Analysis**: Analyzed product data such as average title size, most common word counts, median prices, and more using `pandas`.
+   - Created functions to calculate the character size of titles, word counts, and price statistics.
+   - Ensured that non-numerical prices (e.g., "N/A") were filtered out for accurate analysis.
+
+3. **AI-Powered Generation**: Used the Ollama `llama3.1:8b` model to generate optimized product descriptions.
+   - Integrated AI to generate five distinct product descriptions based on the analysis of scraped data.
+   - This step involved crafting a detailed prompt that included insights from the scraped and analyzed data, such as average title lengths, price ranges, and SEO keywords.
+
+
+## Example Workflow
+
+1. Run the script and provide a product title and description as input:
+
+   ```plaintext
+   Enter the product title: Coffee Grinder
+
+   Enter the product description: A sleek black coffee grinder with multiple grind settings.
+   ```
+2. The tool scrapes Amazon, analyzes data, and generates AI-based suggestions. Example output:
+
+   ```json
+   {
+       "products_desc_list": [
+           {
+               "title": "Sleek Black Coffee Grinder - Multiple Grind Settings",
+               "description": "Elevate your coffee game with our sleek black grinder. Perfect for any brew.",
+               "price": "$49.99",
+               "seo": "coffee grinder, sleek design, grind settings"
+
+           },
+           ...
+       ]
+   }
+   ```
+
+## Technologies Used
+- **Python Libraries**:
+  - `BeautifulSoup`: Web scraping
+  - `pandas`: Data manipulation and analysis
+  - `ollama`: AI model integration
+  - `requests`: HTTP requests for web scraping
+
+- **AI Model**:
+  - Llama `llama3.1:8b` (via `ollama`)
+
 
 ##
 ### Olist E-Commerce Sales Analysis
