@@ -88,6 +88,10 @@ def create_prompt(title, description):
     # Aanalyze price stats
     price_low, price_high, price_mean, price_median, price_mode = analysis.price_stats(
         prices)
+    
+    formatted_titles = ", ".join(titles)
+
+
     # Generate the prompt using concatenation
     prompt = (
         "You are a product listing assistant specializing in creating Amazon product titles, descriptions, prices, and SEO keywords. "
@@ -108,6 +112,7 @@ def create_prompt(title, description):
         str(round(price_mean, 2)) +
         ", with a median of price of $" + str(price_median) + ". "
         + "The most common price is " + str(price_mode[0]) + ".\n\n"
+        + "Some examples of product titles are: " + formatted_titles + ".\n\n"
         + "Your task is to generate a product listing for Amazon based on this data. Create:\n"
         + "1. A compelling product title that is optimized for both readability and SEO.\n"
         + "2. A detailed product description that highlights key features and benefits of the product.\n"
