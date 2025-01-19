@@ -2,10 +2,10 @@
 This is a collection of data analytic projects I have completed. Some tools used include SQL, Excel, Python, and Tableau.
 
 ## Projects
-- [Amazon Product Description Generator (APDG)]
-   - [Background]
-   - [Process]
-   - [Workflow]
+- [Amazon Product Description Generator (APDG)](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#amazon-product-description-generator)
+   - [Background](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#apdg-process)
+   - [Process](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#example-workflow)
+   - [Workflow](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#example-workflow)
 - [Olist E-Commerce Sales Analysis](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-sales--marketing-analysis)
    - [Background](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-background)
    - [Process](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#process-for-olist-e-commerce-analysis)
@@ -76,6 +76,9 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
 
 
 
+
+
+
 ## Olist E-Commerce Sales Analysis
 
 ### Olist E-Commerce Background
@@ -124,6 +127,7 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
    - Focusing on Health, Beauty, Fitness, & Fashion (specifically accessories, such as watches) are key to generating more revenue.
    - Although some Fashion categories such as Childrens Clothes and Sports are in the lower spectrum in terms of quantity sold and revenue generated, if focusing on the categories mentioned in the point above, it would be beneficial to revamp these categories. There is a lot of potential revenue if Olist improves and markets Fashion in Childrens Clothes and Sports.
    - Marketing should be increased in Rio de Janeiro. It already has the second most revenue, and focusing on promoting E-Commerce more in the State, has the potential to significantly increase revenue.
+
 
 
 
