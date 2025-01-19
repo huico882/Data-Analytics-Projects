@@ -21,10 +21,10 @@ This is a collection of data analytic projects I have completed. Some tools used
 
 ## Amazon Product Description Generator
 
-#### (APDG) Background
+### (APDG) Background
 The Amazon Product Description Generator is a Python-based tool designed to scrape product data from Amazon, analyze key metrics (like price, title length, and word count), and generate optimized Amazon product descriptions, titles, prices, and SEO keywords using AI. This project leverages libraries such as BeautifulSoup for web scraping, pandas for data analysis, and the ollama package for AI integration.
 
-#### (APDG) Process
+### (APDG) Process
 1. **Web Scraping**: Implemented a tool that pulls product information from Amazon using `requests` to fetch the webpage and `BeautifulSoup` to parse the HTML content.
    - Headers were configured to simulate a browser request and avoid detection.
    - Functions were developed to pull website content, parse HTML, extract product information, and convert it into usable formats.
@@ -38,7 +38,7 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
    - This step involved crafting a detailed prompt that included insights from the scraped and analyzed data, such as average title lengths, price ranges, and SEO keywords.
 
 
-#### Example Workflow
+### Example Workflow
 
 1. Run the script and provide a product title and description as input:
 
@@ -64,7 +64,7 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
    }
    ```
 
-#### Technologies Used
+### Technologies Used
 - **Python Libraries**:
   - `BeautifulSoup`: Web scraping
   - `pandas`: Data manipulation and analysis
@@ -78,7 +78,7 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
 
 ## Olist E-Commerce Sales Analysis
 
-#### Olist E-Commerce Background
+### Olist E-Commerce Background
    - Olist is an E-commerce store located in Brazil.
    - The data analyzed ranges from August 2016 to August 2018. There was a little bit more data available but the information was not updated so, to make the analysis consistent, I stopped using data after August 2018
    - Olist is an online marketplace where small businesses in Brazil are easily able to sell their products. For more information, visit the [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce/data?select=olist_sellers_dataset.csv) where the data was pulled from.
@@ -105,8 +105,8 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
 4. while playing with the SQL code, I noticed that some product categories in `olist_products_dataset` were null values. To deal with this, I included the code `WHERE s.product_category_name IS NOT NULL` which will only include products that have a product category
 5. After joining the tables together, I exported the data and inserted all relevant information into Tableau. From here, I did any sort of analysis and visuals that were needed
 
-#### Olist E-Commerce Sales Analysis
-##### [Sales Analysis Dashboard](https://public.tableau.com/views/OlistE-Commerce_17356217424300/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+### Olist E-Commerce Sales Analysis
+#### [Sales Analysis Dashboard](https://public.tableau.com/views/OlistE-Commerce_17356217424300/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
    ![Dashboard 1 (3)](https://github.com/user-attachments/assets/b318722b-2ee4-45ce-af63-bfec4109e8e7)
 
 
@@ -118,7 +118,7 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
    - The least sold categories by quantity include (starting from least) Security & Services, Fashion Childrens Clothes, "CDs, DVDs & Musicals", Cousine, Arts & Craftsmanship.
    - The most revenue generated State and City was Sao Paulo by far. This state generated 3x more than the second state, Rio de Janeiro.
 
-#### Olist E-Commerce Key Takeaways
+### Olist E-Commerce Key Takeaways
    - The E-Commerce store should focus on their Health Beauty & Fitness sections. These categories generated some of the best revenues while having a lower # of items sold.
    - Watches is also among this group, it generated the second most revenue while having sold half as much as the most sold item by quantity, Bed Bath Table.
    - Focusing on Health, Beauty, Fitness, & Fashion (specifically accessories, such as watches) are key to generating more revenue.
@@ -131,7 +131,7 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
 
 ## Billboard Top 100 Analysis of Audio Features
 
-#### Process For Billboard Analysis
+### Process For Billboard Analysis
 1. Download the files Billboard (includes Billboard Top 100 since 1958) and the Spotify audio features from [Kaggle](https://www.kaggle.com/datasets/sujaykapadnis/top-100-billboard).
 2. Download SQLite to join both sheets using the identifiers: song and performers. Include features such as key, tempo, and danceability with data such as the date, and week position that were on Billboard.
 3. Once both CSV files have been imported to SQLite, Use the following code to join and create a new table called `billboard_audio_features`
@@ -157,7 +157,7 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
 4. Once the SQL code has been executed and the table has been created, export the table from SQLite and import the CSV file to Tableau.
 5. From here, create any analysis and visuals for dashboard!
 
-#### [Billboard Top 100 Analysis of Audio Features Dashboard](https://public.tableau.com/views/BillboardTop100AudioFeatures/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+### [Billboard Top 100 Analysis of Audio Features Dashboard](https://public.tableau.com/views/BillboardTop100AudioFeatures/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
    ![Dashboard 2](https://github.com/user-attachments/assets/7d9c39ea-ef48-4a4b-9ec7-a81909ed1f31)
 
