@@ -20,7 +20,7 @@ The **Amazon Product Description Generator** is a Python-based tool designed to 
 
 ### Prerequisites
 - Python 3.9+
-- Virtual environment setup (optional but recommended)
+- Virtual environment setup
 
 ### Steps
 1. Clone the repository:
@@ -47,7 +47,7 @@ The **Amazon Product Description Generator** is a Python-based tool designed to 
 Run the script to generate Amazon product descriptions:
 
 ```bash
-python3 main.py
+python3 tui.py
 ```
 
 ### Example Interaction
@@ -74,7 +74,7 @@ python3 main.py
 
 ## Project Structure
 ```
-AmazonProductDescriptionGenerator/
+amazon-product-analysis/
 ├── analysis.py          # Functions for data analysis (e.g., mean, median, mode)
 ├── scraper.py           # Web scraping logic for extracting product data
 ├── ai.py                # AI model integration and prompt generation
@@ -104,15 +104,8 @@ AmazonProductDescriptionGenerator/
 - Add support for more e-commerce platforms.
 - Implement a GUI or web-based interface for ease of use.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ## Acknowledgments
 - [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - [pandas Documentation](https://pandas.pydata.org/docs/)
 - [Ollama AI Models](https://ollama.com/models)
-
----
-
-Feel free to reach out for questions or contributions!
 
