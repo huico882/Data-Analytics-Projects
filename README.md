@@ -6,7 +6,7 @@ This is a collection of data analytic projects I have completed. Some tools used
    - [Background](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#apdg-process)
    - [Process](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#example-workflow)
    - [Workflow](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#example-workflow)
-- [Olist E-Commerce Sales Analysis](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-sales--marketing-analysis)
+- [Olist E-Commerce Sales Analysis](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-sales-analysis)
    - [Background](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-background)
    - [Process](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#process-for-olist-e-commerce-analysis)
    - [Sales Analysis](https://github.com/huico882/Data-Analytics-Projects/blob/main/README.md#olist-e-commerce-sales-analysis)
