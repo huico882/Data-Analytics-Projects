@@ -19,14 +19,12 @@ This is a collection of data analytic projects I have completed. Some tools used
    - [Dashboard](#billboard-top-100-analysis-of-audio-features-dashboard)
 
 
-##
-### Amazon Product Description Generator
+## Amazon Product Description Generator
 
 #### (APDG) Background
 The Amazon Product Description Generator is a Python-based tool designed to scrape product data from Amazon, analyze key metrics (like price, title length, and word count), and generate optimized Amazon product descriptions, titles, prices, and SEO keywords using AI. This project leverages libraries such as BeautifulSoup for web scraping, pandas for data analysis, and the ollama package for AI integration.
 
 #### (APDG) Process
-## Process
 1. **Web Scraping**: Implemented a tool that pulls product information from Amazon using `requests` to fetch the webpage and `BeautifulSoup` to parse the HTML content.
    - Headers were configured to simulate a browser request and avoid detection.
    - Functions were developed to pull website content, parse HTML, extract product information, and convert it into usable formats.
@@ -40,7 +38,7 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
    - This step involved crafting a detailed prompt that included insights from the scraped and analyzed data, such as average title lengths, price ranges, and SEO keywords.
 
 
-## Example Workflow
+#### Example Workflow
 
 1. Run the script and provide a product title and description as input:
 
@@ -66,7 +64,7 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
    }
    ```
 
-## Technologies Used
+#### Technologies Used
 - **Python Libraries**:
   - `BeautifulSoup`: Web scraping
   - `pandas`: Data manipulation and analysis
@@ -77,8 +75,8 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
   - Llama `llama3.1:8b` (via `ollama`)
 
 
-##
-### Olist E-Commerce Sales Analysis
+
+## Olist E-Commerce Sales Analysis
 
 #### Olist E-Commerce Background
    - Olist is an E-commerce store located in Brazil.
@@ -131,8 +129,7 @@ The Amazon Product Description Generator is a Python-based tool designed to scra
 
 
 
-##
-### Billboard Top 100 Analysis of Audio Features
+## Billboard Top 100 Analysis of Audio Features
 
 #### Process For Billboard Analysis
 1. Download the files Billboard (includes Billboard Top 100 since 1958) and the Spotify audio features from [Kaggle](https://www.kaggle.com/datasets/sujaykapadnis/top-100-billboard).
